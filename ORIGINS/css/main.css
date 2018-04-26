@@ -99,9 +99,105 @@ textarea {
 
 
 
+body {
+  background-color: #011E41;
+}
 
+.nav-flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: top-margins;
+}
+.nav-flex-container a {
+  transition: 750ms;
+  min-width: 150px;
+  text-align: center;
+  line-height: 5vh;
+  vertical-align: center;
+}
+a {
+  font-family: sans-serif;
+  letter-spacing: .25em;
+  font-size: 8pt;
+}
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
 
+a:hover {
+  transition: 1000ms;
+  color: auto;
+}
 
+#lphome {
+  margin: 1em;
+  height: 5vh;
+  width: 5vw;
+  transition: 750ms;
+}
+
+#lphome:hover {
+  height: 15vh;
+  width: 15vw;
+}
+
+#origins {
+  width: 40vw;
+  margin: 1em;
+  height: 5vh;
+  background-color: #5E4637;
+}
+
+#origins:hover {
+  height: 25vh;
+  line-height: 25vh;
+  background-color: #011E41;
+  color: #011E41;
+}
+
+#location {
+  width: 20vw;
+  margin: 1em;
+  height: 5vh;
+  background-color: #D9D8D6;
+}
+
+#location:hover {
+  height: 25vh;
+  line-height: 25vh;
+  background-color: #A18529;
+  color: #A18529;
+}
+
+#weakness {
+  width: 20vw;
+  margin: 1em;
+  height: 5vh;
+  background-color: #909288;
+}
+
+#weakness:hover {
+  height: 25vh;
+  line-height: 25vh;
+  background-color: #375542;
+  color: #375542;
+}
+
+#nemesis {
+  width: 20vw;
+  margin: 1em;
+  height: 5vh;
+  background-color: #470054;
+}
+
+#nemesis:hover {
+  height: 25vh;
+  line-height: 25vh;
+  background-color: #8E2A2A;
+  color: #8E2A2A;
+}
 
 
 

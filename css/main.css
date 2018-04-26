@@ -96,121 +96,123 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
-  background-color: gray;
+#main {
+  background-color: #DFBBB0;
 }
-.flex-container {
 
+.flex-container {
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
 }
 
 .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   width: 100vw;
   height: 10vw;
+  background-image: url(../img/landphill.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:top;
   background-color: #D9D8D6;
-  margin-bottom: 50px;
+  margin-bottom: 5vh;
 }
+
+#banner1 {
+  width: 10vw;
+  height: 15vh;
+}
+
+#banner2 {
+  width: 20vw;
+  height: 15vh;
+}
+
 
 .menu-flex-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items: top-margins;
   transition: 1000ms;
 }
 
-.menu-flex-container div {
-  transition: 1000ms;
+.menu-flex-container a {
+  margin: 1em;
+  transition: 750ms;
+  min-width: 150px;
+  width: 20%;
+  height: 25vh;
+  text-align: center;
+  line-height: 25vh;
+  vertical-align: center;
+  transition: 750ms;
 }
 a {
   font-family: sans-serif;
+  letter-spacing: .25em;
+  font-size: 8pt;
 }
-a:link {
+a:link, a:visited {
   color: white;
-  text-decoration: none;
-}
-
-a:visited {
-  color:gray;
   text-decoration: none;
 }
 
 a:hover {
   transition: 1000ms;
-  color: inherit;
+  color: auto;
 }
 
 #origins {
-  width: 20vw;
-  margin: 1em;
-  height: 5vw;
   background-color: #5E4637;
-  text-align: center;
-  line-height: 5vw;
-  vertical-align: center;
-  min-width: 15vw;
-  transition: 750ms;
-
 }
 
 #origins:hover {
-  width: 25vw;
-  height: 50vw;
-  line-height: 50vw;
+  width: 25%;
+  height: 50vh;
+  line-height: 50vh;
   background-color: #011E41;
+  color: #011E41;
 }
 
 #location {
-  width: 20vw;
-  margin: 1em;
-  height: 20vw;
   background-color: #D9D8D6;
-  text-align: center;
-  line-height: 20vw;
-  vertical-align: center;
-  transition: 750ms;
 }
 
 #location:hover {
-  width: 25vw;
-  height: 30vw;
-  line-height: 30vw;
+  width: 25%;
+  height: 35vh;
+  line-height: 35vh;
   background-color: #A18529;
+  color: #A18529;
 }
 
 #weakness {
-  width: 20vw;
-  margin: 1em;
-  height: 25vw;
   background-color: #909288;
-  text-align: center;
-  line-height: 25vw;
-  vertical-align: center;
-  transition: 750ms;
 }
 
 #weakness:hover {
-  height: 20vw;
-  line-height: 20vw;
+  width: 30%;
+  height: 25vh;
+  line-height: 25vh;
   background-color: #375542;
+  color: #375542;
 }
 
 #nemesis {
-  width: 20vw;
-  margin: 1em;
-  height: 15vw;
   background-color: #470054;
-  text-align: center;
-  line-height: 15vw;
-  vertical-align: center;
-  transition: 750ms;
 }
 
 #nemesis:hover {
-  width: 25vw;
-  height: 25vw;
-  line-height: 25vw;
+  width: 25%;
+  height: 50vh;
+  line-height: 50vh;
   background-color: #8E2A2A;
+  color: #8E2A2A;
 }
 
 
