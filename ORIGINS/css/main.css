@@ -99,15 +99,24 @@ textarea {
 
 
 
+
 body {
   background-color: #011E41;
+
+}
+
+.flex-container {
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
 }
 
 .nav-flex-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
   align-items: top-margins;
+  margin-bottom: 5vh;
 }
 .nav-flex-container a {
   transition: 750ms;
@@ -115,14 +124,23 @@ body {
   text-align: center;
   line-height: 5vh;
   vertical-align: center;
+  margin: 1em;
 }
+
+.nav-flex-container img {
+width: 60%;
+height: 60%;
+
+}
+
 a {
-  font-family: sans-serif;
+  font-family: 'Varela', sans-serif;
   letter-spacing: .25em;
   font-size: 8pt;
 }
+
 a:link, a:visited {
-  color: white;
+  color: #011E41;
   text-decoration: none;
 }
 
@@ -132,7 +150,6 @@ a:hover {
 }
 
 #lphome {
-  margin: 1em;
   height: 5vh;
   width: 5vw;
   transition: 750ms;
@@ -145,62 +162,112 @@ a:hover {
 
 #origins {
   width: 40vw;
-  margin: 1em;
   height: 5vh;
   background-color: #5E4637;
+  color: #011E41;
 }
 
 #origins:hover {
   height: 25vh;
-  line-height: 25vh;
+  line-height: 0vh;
   background-color: #011E41;
-  color: #011E41;
+  color: #D9D8D6;
 }
 
 #location {
   width: 20vw;
-  margin: 1em;
   height: 5vh;
   background-color: #D9D8D6;
+  /* color: #A18529; */
 }
 
 #location:hover {
   height: 25vh;
-  line-height: 25vh;
+  line-height: 0vh;
   background-color: #A18529;
-  color: #A18529;
+  color: #D9D8D6;
 }
 
 #weakness {
   width: 20vw;
-  margin: 1em;
   height: 5vh;
   background-color: #909288;
+  /* color: #375542; */
 }
 
 #weakness:hover {
   height: 25vh;
-  line-height: 25vh;
+  line-height: 0vh;
   background-color: #375542;
-  color: #375542;
+  color: #D9D8D6;
 }
 
 #nemesis {
   width: 20vw;
-  margin: 1em;
   height: 5vh;
   background-color: #470054;
+  /* color: #8E2A2A; */
 }
 
 #nemesis:hover {
   height: 25vh;
-  line-height: 25vh;
+  line-height: 0vh;
   background-color: #8E2A2A;
-  color: #8E2A2A;
+  color: #D9D8D6;
 }
 
+#content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  background color: gray;
+  margin-left: 5vw;
+}
+.heading {
+  font-family: 'Varela', sans-serif;
+  color: #D9D8D6;
+  font-size: 48pt;
+}
 
+#content p {
+  font-family: 'Varela', sans-serif;
+  color: #D9D8D6;
+  font-size: 14pt;
+  line-height: 18pt;
+  letter-spacing: 1pt;
+}
 
+#content {
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: space-between;
+  width: 100%;
+  height: 85%;
+  /* background-color: white; */
+}
+
+#content-image {
+  height: 100%;
+  width: 100%;
+  margin-left: 2.5vw;
+  margin-right: 5vw;
+}
+
+#content-image img {
+  height: 50%;
+  width: 50%;
+}
+
+#content-body {
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 40%;
+  min-width: 20%;
+  margin-right: 2.5vw;
+}
 
 
 
