@@ -96,13 +96,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 #main {
-  /* background-color: #DFBBB0; */
-  background-image: url(../img/landphill.png);
+  background-image: url(../img/landfill.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: scroll;
+  background-color: black;
 }
 
 .flex-container {
@@ -117,22 +118,18 @@ textarea {
   justify-content: flex-start;
   align-items: center;
   height: 40%;
-  background-image: url(../img/landphill.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:top;
-  background-color: #D9D8D6; */
   margin-bottom: 5vh;
 }
 
 #banner1 {
-  width: 10vw;
-  height: 10vh;
+  width: 5vw;
+  margin-left: 1.2em;
+  margin-top: 1em;
 }
 
 #banner2 {
   width: 20vw;
-  height: 15vh;
+  margin-top: 1em;
 }
 
 

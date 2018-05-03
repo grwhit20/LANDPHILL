@@ -239,6 +239,10 @@ a:hover {
   letter-spacing: 1pt;
 }
 
+#LANDPHILL {
+  color: #5E4637;
+}
+
 #content {
   display: flex;
   flex-direction: row-reverse;
@@ -256,8 +260,12 @@ a:hover {
 }
 
 #content-image img {
-  height: 50%;
-  width: 50%;
+  height: 50vh;
+  transition: 750ms;
+}
+
+#content-image img:hover {
+  height: 100vh;
 }
 
 #content-body {

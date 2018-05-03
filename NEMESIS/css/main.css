@@ -101,12 +101,20 @@ textarea {
 
    }
 
+   .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   }
+
    .nav-flex-container {
      display: flex;
      justify-content: flex-start;
      flex-direction: row;
      align-items: top-margins;
+     margin-bottom: 5vh;
    }
+
    .nav-flex-container a {
      transition: 750ms;
      min-width: 150px;
@@ -153,7 +161,7 @@ textarea {
      width: 20vw;
      height: 5vh;
      background-color: #5E4637;
-     /* color: #A18529; */
+     color: #8E2A2A;
    }
 
    #origins:hover {
@@ -167,7 +175,7 @@ textarea {
      width: 20vw;
      height: 5vh;
      background-color: #D9D8D6;
-     /* color: #A18529; */
+     color: #8E2A2A;
    }
 
    #location:hover {
@@ -181,7 +189,7 @@ textarea {
      width: 20vw;
      height: 5vh;
      background-color: #909288;
-     /* color: #375542; */
+     color: #8E2A2A;
    }
 
    #weakness:hover {
@@ -195,7 +203,7 @@ textarea {
      width: 40vw;
      height: 5vh;
      background-color: #470054;
-     /* color: #8E2A2A; */
+     color: #8E2A2A;
    }
 
    #nemesis:hover {
@@ -203,6 +211,64 @@ textarea {
      line-height: 0vh;
      background-color: #8E2A2A;
      color: #D9D8D6;
+   }
+
+   #content-container {
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     height: 100%;
+     width: 100%;
+     background color: gray;
+     margin-left: 5vw;
+   }
+
+   .heading {
+     font-family: 'Varela', sans-serif;
+     color: #D9D8D6;
+     font-size: 48pt;
+   }
+
+   #content p {
+     font-family: 'Varela', sans-serif;
+     color: #D9D8D6;
+     font-size: 14pt;
+     line-height: 18pt;
+     letter-spacing: 1pt;
+   }
+
+   #content {
+     display: flex;
+     flex-direction: row-reverse;
+     align-content: space-between;
+     width: 100%;
+     height: 85%;
+     /* background-color: white; */
+   }
+
+   #content-image {
+     height: 100%;
+     width: 100%;
+     margin-left: 2.5vw;
+     margin-right: 5vw;
+   }
+
+   #content-image img {
+     height: 50vh;
+     transition: 750ms;
+   }
+
+   #content-image img:hover {
+     height: 100vh;
+   }
+
+   #content-body {
+     display:flex;
+     flex-direction: column;
+     width: 50%;
+     max-width: 40%;
+     min-width: 20%;
+     margin-right: 2.5vw;
    }
 
 
